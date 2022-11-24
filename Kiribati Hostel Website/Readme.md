@@ -1,13 +1,13 @@
-TODO: Write a nicer project presentation here later...
+<h6><b>TODO</b>: Write a nicer project presentation here later...</h6>
 
 
 
 
-=========== Kiribati Hostel ============
+<h1>Kiribati Hostel</h1>
 
-Objective: practice HTML/CSS skills.
+<b>Objective:</b> practice HTML/CSS skills.
 
-TODO: Check/Fix as many flaws as possible.
-TODO 2: Add Javascript in the future.
+<b>TODO</b>: Check/Fix as many flaws as possible.
+<p><b>TODO 2</b>: Add Javascript in the future.
 
-This fictional website was built for the sake of educational purposes only (learning and practicing webdesign skills). I claim no ownership to any specific third-party media contents and descriptions used here.
+<h6>This fictional website was built for the sake of educational purposes only (learning and practicing webdesign skills). I claim no ownership to any specific third-party media contents and descriptions used here.</h6>
