@@ -706,3 +706,256 @@ form div.choose.place, form div.choose.year{
     background-color: white;
     border-radius: 20px;
 }
+
+
+
+/* ======================================    MEDIA QUERIES   ========================================= */
+
+
+/* @media screen and (max-width:1366px){
+    
+} */
+
+@media screen and (max-width:1080px){
+    
+    header .welcome div{                 
+        top: 4px;
+        left: 437px;
+    }
+    .nav_home li{                 
+        padding: 20px 28px;
+        width: 148px;               
+    }
+    .welcome h1 {
+        font-size: 29px;
+    }
+    .welcome h2 {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width:810px){
+
+    header .welcome div {
+        top: 12px;
+        left: 320px;
+    }
+
+    .nav_home {
+        font-size: 14px;
+        padding: 4px 6px;
+    }
+
+    .nav_home li {
+        padding: 20px 0px;
+        width: 160px;
+    }
+
+    .welcome h1 {
+        font-size: 20px;
+    }
+
+    .welcome h2 {
+        font-size: 12.5px;        
+    }
+    
+    .reservation {
+        font-size: 14px;
+    }
+
+    .destiny {
+        font-size: 22px;        
+    }
+
+    .destiny_options li {
+        max-width: 261px;   /* max-width: 31%;  */        
+    }
+
+    .slogan_kiribati {
+        font-size: 41px;
+    }
+
+    .slogan_kiribati blockquote {        
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+    
+    .hostel_promotion li {      
+        width: 37%;
+    }
+
+    .description {
+        max-width: 61%;
+        top: 0px;
+        left: 328px;
+        line-height: 27px;
+        font-size: 13px;
+    }
+
+    .schedule_visit {        
+        font-size: 17px;
+    }
+    
+    .hostel_pics li {
+        max-width: 382px;
+    }    
+
+    .hostel_pics .photo_description {
+        font-size: 17px;        
+    }
+
+    .flag_list {        
+        padding: 96px 0;
+    }
+
+    .flag_list li {
+        max-width:30%; 
+    }
+
+    .flag_list_left {
+        top: 3px;
+        left: 17px;
+    }
+
+    .flag_list_center {
+        top: 41px;
+        left: 280px;
+    }
+
+    .flag_list_center:hover{
+        pointer-events: none;          /* this disables the hover effect */
+    }
+
+    .flag_list_suggestion {
+        font-size: 20px;
+    }
+
+    .flag_list_right {
+        top: 45px;
+        right: 26px;
+    }
+
+    .list_item {
+        height: 837px;
+        padding: 45px 0;
+    }
+
+    .fishing_left {
+        top: 23px;
+    }
+
+    .fishing_left, .surfing_left, .exploring_left, .connecting_left {
+        left: 31px;
+        width: 92%;
+    }
+
+    .fishing_left_p, .surfing_left_p, .exploring_left_p, .connecting_left_p {
+        font-size: 18px;        
+        padding: 12px 0;       
+    }
+
+    .fishing_right {
+        padding: 0px 16px;
+        top: 15px;        
+    }
+
+    .fishing_right, .surfing_right, .exploring_right, .connecting_right {
+        width: 88%;
+        height: 316px;
+        font-size: 14px;
+        line-height: 41px;
+        left: 31px;
+    }
+
+    .surfing_left {
+        top: 42px;
+    }
+
+    .surfing_right, .exploring_right, .connecting_right {
+        width: 725px;
+    }
+
+    .surfing_right{
+        height: 233px;
+        top: 38px;        
+    }
+
+    .exploring_left {
+        top: -12px;
+    }
+
+    .exploring_right {
+        top: -18px;
+        height: 357px;
+    }
+
+    .connecting_left {
+        top: 45px;
+    }
+
+    .connecting_right {
+        top: 38px;
+        height: 357px;
+        padding-top: 2px;
+    }
+
+    .about_us {
+        height: 1040px;
+    }
+
+    .about_us_map1 {
+        width: 1223px;
+        max-width: 802px;        
+        top: 316px;
+        right: 1px;
+    }
+
+    .about_us_map2 {        
+        width: 803px; 
+        max-width: 932px;
+        top: -723px;
+        right: 1px; 
+    }
+
+    .about_us_paragraph {
+        top: 112px;
+        left: 430px;    
+        font-size: 15px;
+        pointer-events: none;
+    }
+
+    .goodbye_paragraph {
+        font-size: 19px;    
+        margin-bottom: -9px;
+    }
+
+    .goodbye_paragraph_2 {
+        font-size: 23px;
+    }
+
+    .turtle {
+        padding-right: 17px;
+        padding-bottom: 22px;
+        pointer-events: none;
+        width: 35%;
+    }
+
+    .people {
+        width: 58%;
+        padding-left: 8px;
+        pointer-events: none;
+    }
+
+    .goodbye_message {
+        font-size: 19px;
+    }
+
+    #message {
+        width: 95%;
+    }
+
+}
