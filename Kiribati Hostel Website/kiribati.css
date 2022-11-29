@@ -438,11 +438,12 @@ form div.choose.place, form div.choose.year{
 .activities{
     padding:0;
     margin:0;    
+    background-color: #4871e2; 
 }
 
 .list_item{
     display: inline-block;
-    background-color: #4871e2;    
+    /* background-color: #4871e2;     */
     height: 403px;
     padding: 62px 0;
 }
@@ -956,6 +957,232 @@ form div.choose.place, form div.choose.year{
 
     #message {
         width: 95%;
+    }
+}
+
+@media screen and (max-width: 412px){
+
+    .nav_home {
+        font-size: 13.5px;                
+        padding: 5px 10px;
+    }
+
+    .nav_home li {
+        display: inline;
+        padding: 20px 12px;
+    }
+
+    header .welcome div {
+        top: 50px;
+        left: 6px;
+        background: #0000;        /* adds transparency to text background color */
+    }
+
+    .welcome h1 {
+        font-size: 17px;
+    }
+
+    .welcome h2 {
+        font-size: 11px;
+    }
+
+    .reservation {
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+
+    .reservation li {
+        display: inline-block;
+        width: 49%;        
+        padding-right: 2px;
+    }
+
+    #email, #login, #password {
+        font-size: 11px;
+    }
+
+    .destiny {
+        display: none;                /* conceals the "Choose your destiny" sentence */
+        /* font-size: 20px; */                
+    }
+
+    .destiny_options li {
+        max-width: 100%;        
+    }
+
+    .choose_destiny, .schedule_visit {
+        font-size: 15px;
+    }
+
+    .slogan {        
+        padding: 0;
+        padding-top: 110px;   
+    }
+
+    .slogan_left {
+        top: -15px;
+        left: -19px;
+        width: 50%;
+        /* rotate: -10deg; */         /* rotates the picture in a given angle */
+    }
+
+    .slogan_kiribati {
+        font-size: 26px;             
+    }
+
+    .slogan_right {
+        top: -15px;
+        right: -15px;
+        width: 50%;
+        /* rotate: -10deg; */
+    }
+
+    .schedule_pic {
+        max-width: 100%;
+    }
+
+    .hostel_promotion {
+        padding: 0 0px 176px 0;
+    }
+
+    .hostel_promotion ul{
+        padding: 0;
+        text-align: center;
+    }
+
+    .hostel_promotion li {
+        width: 90%;
+    }
+
+    .description {
+        max-width: 95%;
+        top: 200px;
+        left: -6px;
+        /* font-weight: bold; */
+    }
+
+    .flag_list {
+        padding: 133px 0;
+    }
+
+    .flag_list li {
+        max-width: 48%;
+        background-color: slateblue;
+    }
+
+    .flag_list_left {
+        top: 8px;
+        left: -11px;
+    }
+
+    .flag_list_center {
+        top: 164px;
+        left: 114px;
+    }
+
+    .flag_list_suggestion {
+        font-size: 17px;
+        line-height: 15px;
+        pointer-events: none; 
+    }
+
+    .fishing_left {
+        width: 93%;  
+        left: 14px; 
+        top: -10px;
+    }
+
+    .surfing_left, .exploring_left, .connecting_left {
+        left: 15px;        
+        width: 92%;    
+    }
+
+    .surfing_left {
+        top: -193px;
+    }
+
+    .exploring_left {
+        top: -451px;
+    }
+
+    .connecting_left {
+        top: -583px;
+    }   
+
+    .fishing_left_p, .surfing_left_p, .exploring_left_p, .connecting_left_p {
+        font-size: 16px;
+        /* padding: 12px 0; */
+    }
+
+    .fishing_right, .surfing_right, .exploring_right, .connecting_right {
+        width: 351px;
+        height: 365px;
+        font-size: 13px;
+        line-height: 26px;
+        left: 14px;
+        top: -16px;
+    }    
+
+    .surfing_right, .exploring_right, .connecting_right {
+        width: 359px;        
+        left: 15px;        
+    }
+
+    .surfing_right {
+        height: 292px;
+        top: -199px;
+    }    
+
+    .exploring_right {
+        height: 422px;
+        top: -457px;
+    }
+
+    .connecting_right {
+        height: 441px;
+        top: -590px;
+    }
+
+/* como resolver a questão do list_item (espaço vazio na página "Visit Kiribati") ? */
+
+    .about_us {
+        height: 688px;
+    }
+
+    .about_us_paragraph {
+        pointer-events: none;
+    }
+
+    .about_us_map1 {
+        max-width: 411px;
+        right: 199px;
+    }
+
+    .about_us_map2 {
+        top: -374px;        
+    }
+
+    .goodbye_paragraph {
+        font-size: 17px;
+    }
+
+    .goodbye_paragraph_2 {
+        font-size: 20px;
+    }
+
+    .turtle {
+        padding-right: 2px;        
+        width: 78%;
+    }
+
+    .people {
+        width: 93%;
+        padding-left: 2px;
+    }
+
+    .goodbye_message {
+        font-size: 17px;
+        padding-top: 40px;
     }
 
 }
